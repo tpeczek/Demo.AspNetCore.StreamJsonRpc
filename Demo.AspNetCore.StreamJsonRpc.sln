@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.AspNetCore.StreamJsonR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.AspNetCore.StreamJsonRpc.Contract", "Demo.AspNetCore.StreamJsonRpc.Contract\Demo.AspNetCore.StreamJsonRpc.Contract.csproj", "{3BDA5B8A-8128-4CE4-9DA3-CDE65F4A6573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore.StreamJsonRpc.Server", "Demo.AspNetCore.StreamJsonRpc.Server\Demo.AspNetCore.StreamJsonRpc.Server.csproj", "{D80ACA65-3C2A-4141-A827-80E38E50CFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.AspNetCore.StreamJsonRpc.Server", "Demo.AspNetCore.StreamJsonRpc.Server\Demo.AspNetCore.StreamJsonRpc.Server.csproj", "{D80ACA65-3C2A-4141-A827-80E38E50CFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore.StreamJsonRpc.Client.Tcp", "Demo.AspNetCore.StreamJsonRpc.Client.Tcp\Demo.AspNetCore.StreamJsonRpc.Client.Tcp.csproj", "{0BB9BB0C-466A-476A-8793-88887E063FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.AspNetCore.StreamJsonRpc.Client.Tcp", "Demo.AspNetCore.StreamJsonRpc.Client.Tcp\Demo.AspNetCore.StreamJsonRpc.Client.Tcp.csproj", "{0BB9BB0C-466A-476A-8793-88887E063FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore.StreamJsonRpc.Server.WebSocket", "Demo.AspNetCore.StreamJsonRpc.Server.WebSocket\Demo.AspNetCore.StreamJsonRpc.Server.WebSocket.csproj", "{5C737BD7-7C01-4D98-B638-D73482FDB642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.AspNetCore.StreamJsonRpc.Client.WebSocket", "Demo.AspNetCore.StreamJsonRpc.Client.WebSocket\Demo.AspNetCore.StreamJsonRpc.Client.WebSocket.csproj", "{BEF3BF5E-61C0-4356-973A-57E2DF16010E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{0BB9BB0C-466A-476A-8793-88887E063FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BB9BB0C-466A-476A-8793-88887E063FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BB9BB0C-466A-476A-8793-88887E063FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C737BD7-7C01-4D98-B638-D73482FDB642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C737BD7-7C01-4D98-B638-D73482FDB642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C737BD7-7C01-4D98-B638-D73482FDB642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C737BD7-7C01-4D98-B638-D73482FDB642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF3BF5E-61C0-4356-973A-57E2DF16010E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF3BF5E-61C0-4356-973A-57E2DF16010E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF3BF5E-61C0-4356-973A-57E2DF16010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF3BF5E-61C0-4356-973A-57E2DF16010E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
