@@ -1,6 +1,8 @@
 # Demo.AspNetCore.StreamJsonRpc
 
-Sample project for demonstrating JSON-RPC 2.0 in ASP.NET Core.
+Sample project for demonstrating JSON-RPC 2.0 in ASP.NET Core. You can read more here:
+
+- [JSON-RPC in ASP.NET Core With StreamJsonRpc](https://www.tpeczek.com/2020/06/json-rpc-in-aspnet-core-with.html)
 
 ## Donating
 
