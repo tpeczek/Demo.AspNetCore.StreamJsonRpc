@@ -1,11 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Demo.AspNetCore.StreamJsonRpc.Contract\Demo.AspNetCore.StreamJsonRpc.Contract.csproj" />
   </ItemGroup>
-
 </Project>

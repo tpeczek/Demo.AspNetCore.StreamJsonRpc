@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="StreamJsonRpc" Version="2.4.48" />
+    <PackageReference Include="StreamJsonRpc" Version="2.19.27" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Demo.AspNetCore.StreamJsonRpc.Contract\Demo.AspNetCore.StreamJsonRpc.Contract.csproj" />
